@@ -1,0 +1,55 @@
+1. Configurar git para usarlo en la facultad: git config --global http.proxy http://proxy.lcc.uma.es:3128
+2. Comando para clonar el repositorio de mi cuenta "pablet" al ordenador que se esté usando: git clone https://github.com/pablet/umafactorial.git
+3. Comando para movernos a la ruta donde tengamos clonado el repositorio: cd umafactorial
+4. Comando que es necesario para cuando se envían los commits: git config --global user.name "pablet"
+5. Comando que es necesario para cuando se envían los commits: git config --global user.email "gutiruizp@gmail.com"
+6. Comando para crear un fichero (vacío): touch factorial.java
+7. Editor de texto: vim factorial.java
+8. Comando para indicar que el fichero esta listo para ser guardado: git add factorial.java
+9. Comando que muestra los ficheros que estan listos para hacer un commit o que no han sido añadidos: git status
+10. Confirma los cambios con un mensaje y lo añade al repositorio: git commit -m "implementacion inicial"
+11. Editor de texto: vim factorial.java
+12. Comando para indicar que el fichero esta listo para ser guardado: git add factorial.java
+13. Comando que muestra los ficheros que estan listos para hacer un commit o que no han sido añadidos: git status
+14. Confirma los cambios con un mensaje y lo añade al repositorio: git commit -m "refactorizacion"
+15. Comando que muestra los ficheros que estan listos para hacer un commit o que no han sido añadidos: git status
+16. Comando que envia los ficheros al repositorio remoto (push <repositorio remoto> <repositorio que se quiere enviar>): git push origin master
+17. Comando que crea una nueva rama y cambia directamente el espacio de trabajo a dicha rama: git checkout -b recursivo
+18. Editor de texto: vim factorial.java
+19. Comando para indicar que el fichero esta listo para ser guardado: git add factorial.java
+20. Comando que muestra los ficheros que estan listos para hacer un commit o que no han sido añadidos: git status
+21. Confirma los cambios con un mensaje y lo añade al repositorio: git commit -m "implementacion recursiva"
+22. Comando que envia los ficheros al repositorio remoto (push <repositorio remoto> <repositorio que se quiere enviar>): git push origin recursivo
+23. Comando para cambiar el espacio de trabajo a otra rama: git checkout master
+24. Editor de texto: vim factorial.java
+25. Comando para indicar que el fichero esta listo para ser guardado: git add factorial.java
+26. Comando que muestra los ficheros que estan listos para hacer un commit o que no han sido añadidos: git status
+27. Confirma los cambios con un mensaje y lo añade al repositorio: git commit -m "correccion numeros negativos"
+28. Comando que envia los ficheros al repositorio remoto (push <repositorio remoto> <repositorio que se quiere enviar>): git push origin master
+29. Comando para cambiar el espacio de trabajo a otra rama: git checkout recursivo
+30. Editor de texto: vim factorial.java
+31. Comando para indicar que el fichero esta listo para ser guardado: git add factorial.java
+32. Comando que muestra los ficheros que estan listos para hacer un commit o que no han sido añadidos: git status
+33. Confirma los cambios con un mensaje y lo añade al repositorio: git commit -m "optimizacion"
+34. Comando que envia los ficheros al repositorio remoto (push <repositorio remoto> <repositorio que se quiere enviar>): git push origin recursivo
+35. Comando para cambiar el espacio de trabajo a otra rama: git checkout master
+36. Comando para mezclar el contenido de dos ramas (de la que indicamos a en la que estamos trabajando): git merge recursivo
+37. Comando que crea una nueva rama y cambia directamente el espacio de trabajo a dicha rama: git checkout -b refacIO
+38. Editor de texto: vim factorial.java
+39. Comando para indicar que el fichero esta listo para ser guardado: git add factorial.java
+40. Confirma los cambios con un mensaje y lo añade al repositorio: git commit -m "refactorizacion de metodo de entrada"
+41. Comando para guardar temporalmente los cambios efectuados: git stash
+42. Comando para cambiar el espacio de trabajo a otra rama: git checkout master
+43. Comando para indicar que el fichero esta listo para ser guardado: git add factorial.java
+44. Confirma los cambios con un mensaje y lo añade al repositorio: git commit -m "cambio de long a BigInteger"
+45. Comando que envia los ficheros al repositorio remoto (push <repositorio remoto> <repositorio que se quiere enviar>): git push origin master
+46. Comando para cambiar el espacio de trabajo a otra rama: git checkout refacIO
+47. Comando para recupar los cambios que guardamos con git stash: git stash pop
+48. Comando para indicar que el fichero esta listo para ser guardado: git add factorial.java
+49. Confirma los cambios con un mensaje y lo añade al repositorio: git commit -m "refactorizacion de metodo de salida"
+50. Comando para cambiar el espacio de trabajo a otra rama: git checkout master
+51. Comando para mezclar el contenido de dos ramas (de la que indicamos a en la que estamos trabajando): git merge refacIO
+52. Comando para indicar que el fichero esta listo para ser guardado: git add factorial.java
+53. Confirma los cambios con un mensaje y lo añade al repositorio: git commit -m "mezcla de rama refacIO"
+54. Comando que envia los ficheros al repositorio remoto (push <repositorio remoto> <repositorio que se quiere enviar>): git push origin master
+55. Comando para crear un fichero (vacío): touch comandos-git.txt
